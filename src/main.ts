@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Enable CORS for your frontend (Vite on localhost:5173)
   app.enableCors({
-    origin: 'http://localhost:5173',
+    origin: 'https://socket-frontend-react.vercel.app',
     credentials: true, // only if you’re sending cookies or auth headers
   });
 
